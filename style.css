@@ -4,15 +4,19 @@ body {
 
 nav {
 	background-color: #f8d9d1;
-	text-align: center;
+	display: flex;
+	flex-direction: column;
 }
 
 .nav-items {
-	display: inline-block;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
 }
 
-.nav-items div {
-	display: inline-block;
+.nav-links, .nav-btns {
+	margin-top: 10px;
 }
 
 #nav-logo img {
@@ -21,14 +25,14 @@ nav {
 }
 
 nav a {
-	display: inline-block;
  	font-family: 'Oswald', sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 	text-decoration: none;
 }
 
 .nav-links a {
 	color: #000000;
+	margin: 0 35px;
 }
 
 .nav-links a:hover {
@@ -40,5 +44,6 @@ nav a {
 	background-color: white;
 	border: 3px solid #ed462f;
 	padding: 13px 35px;
+	margin: 0 8px;
 }
 
