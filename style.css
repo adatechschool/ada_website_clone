@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+}
+
+nav {
+	background-color: #f8d9d1;
+	text-align: center;
+}
+
+.nav-items {
+	display: inline-block;
+}
+
+.nav-items div {
+	display: inline-block;
+}
+
+#nav-logo img {
+	height: 90px;
+	width: auto;
+}
+
+nav a {
+	display: inline-block;
+ 	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.nav-links a {
+	color: #000000;
+}
+
+.nav-links a:hover {
+	color: #ed462f;
+}
+
+.nav-btns a {
+	color: #ed462f;
+	background-color: white;
+	border: 3px solid #ed462f;
+	padding: 13px 35px;
+}
+
