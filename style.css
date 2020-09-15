@@ -1,6 +1,9 @@
-body {
+* {
 	margin: 0;
+	padding: 0;
 }
+
+/*** NAV BAR ***/
 
 nav {
 	background-color: #f8d9d1;
@@ -46,4 +49,33 @@ nav a {
 	padding: 13px 35px;
 	margin: 0 8px;
 }
+
+/*** FOOTER ***/
+
+.footer-banderole img {
+	width: 100%;
+	
+	
+}
+
+.footer-items {
+	background-color: #ed462f;
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer-items > * {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-logos #logo-datadock {
+	width: 80px;
+}
+
+.footer-logos #logo-poleemploi {
+	width: 100px;
+}
+
+
 
