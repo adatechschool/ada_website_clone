@@ -3,6 +3,10 @@
 	padding: 0;
 }
 
+a {
+	text-decoration: none;
+}
+
 /*** NAV BAR ***/
 
 nav {
@@ -51,10 +55,20 @@ nav a {
 }
 
 /*** FOOTER ***/
+footer a, footer p, footer i {
+	color: white;
+	font-family: 'Chivo', sans-serif;
+	font-size: 18px;
+}
+
+.footer-links p {
+	font-weight: 700;
+}
 
 .footer-banderole img {
-	width: 100%;	
+	width: 100%;
 }
+
 .footer-banderole {
   background-color : #ed462f;
 }
@@ -77,6 +91,3 @@ nav a {
 .footer-logos #logo-poleemploi {
 	width: 100px;
 }
-
-
-
