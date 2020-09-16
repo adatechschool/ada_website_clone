@@ -53,9 +53,10 @@ nav a {
 /*** FOOTER ***/
 
 .footer-banderole img {
-	width: 100%;
-	
-	
+	width: 100%;	
+}
+.footer-banderole {
+  background-color : #ed462f;
 }
 
 .footer-items {
