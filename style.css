@@ -62,6 +62,15 @@ footer a, footer p, footer i {
 	text-align: center;
 }
 
+footer i {
+	border-radius: 50%;
+	border-color: white;
+	border: solid;
+	width: 40px;
+	height: 40px;
+	margin: 5px;
+}
+
 .footer-links p {
 	font-weight: 700;
 }
@@ -93,4 +102,16 @@ footer a, footer p, footer i {
 
 .footer-logos #logo-poleemploi {
 	width: 100px;
+}
+
+.footer-icons {
+	display: flex;
+	flex-direction: row;
+	margin-top: 10px;
+}
+
+.fa-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
