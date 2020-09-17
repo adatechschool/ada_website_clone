@@ -124,5 +124,11 @@ footer i {
     display : flex;
     flex-direction : column;
   }
+  .footer-items > * {
+    margin: 10px;
+  }
 
+  .footer-links > * {
+    margin: 2px;
+  }
 }
