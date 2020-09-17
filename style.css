@@ -131,4 +131,8 @@ footer i {
   .footer-links > * {
     margin: 2px;
   }
+
+  .nav-btns, .nav-links {
+    display : none
+  }
 }
