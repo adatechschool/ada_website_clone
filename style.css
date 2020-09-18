@@ -65,6 +65,13 @@ nav a {
 	font-family: 'Chivo', sans-serif;
 }
 
+#section1 {
+  background-image: url("images/Ada-Tech-School-ecole-dinformatique-2.png");
+  background-attachment: local; 
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 .bandeau-rouge {
 	display: flex;
 	flex-direction: column;
