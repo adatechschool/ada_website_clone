@@ -55,7 +55,44 @@ nav a {
 	margin: 0 8px;
 }
 
+/*** MAIN ***/
+
+.title {
+	font-family: 'Oswald', sans-serif;
+}
+
+.text {
+	font-family: 'Chivo', sans-serif;
+}
+
+.bandeau-rouge {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #ed462f;
+	height: 108px;
+	color: white;
+}
+
+.bandeau-rouge .title {
+	font-size: 21px;
+	margin-bottom: 5px;
+}
+
+.bandeau-rouge .text {
+	font-size: 17px;
+}
+
+.bandeau-rouge a {
+	color: black;
+	text-decoration: underline;
+	font-weight: 700;
+}
+
+
 /*** FOOTER ***/
+
 footer a, footer p, footer i {
 	color: white;
 	font-family: 'Chivo', sans-serif;
