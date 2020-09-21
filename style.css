@@ -12,10 +12,14 @@ a {
 nav {
 	background-color: #f8d9d1;
 	display: flex;
-  flex-wrap : nowrap;
-  flex-direction : row;
+	flex-wrap : nowrap;
+	flex-direction : row;
 	align-items: center;
 	justify-content: center;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	/*height: 95px;*/
 }
 
 nav > * {
@@ -66,10 +70,11 @@ nav a {
 }
 
 #section1 {
-  background-image: url("images/Ada-Tech-School-ecole-dinformatique-2.png");
+  background-image: url("images/background_ada1.jpg");
   background-attachment: local; 
   background-size: 100%;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .bandeau-rouge {
@@ -80,6 +85,7 @@ nav a {
 	background-color: #ed462f;
 	height: 108px;
 	color: white;
+	margin-top: 95px;
 }
 
 .bandeau-rouge .title {
@@ -97,6 +103,32 @@ nav a {
 	font-weight: 700;
 }
 
+.rectangle-blanc {
+	background-color: white;
+	position: relative;
+	right: 1%;
+	height : 329px;
+	width : 541px;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	padding: 40px 0 ;
+}
+
+.rectangle-blanc h1 {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 48px;
+	font-weight: 500;
+}
+
+.rectangle-blanc p {
+	font-family: 'Chivo', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	padding: 0 70px;
+}
 
 /*** FOOTER ***/
 
