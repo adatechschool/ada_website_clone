@@ -69,15 +69,9 @@ nav a {
 	font-family: 'Chivo', sans-serif;
 }
 
-#section1 {
-  background-image: url("images/background_ada1.jpg");
-  background-attachment: local;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-	height: 65vh;
-	display: flex;
-	align-items: center;
+#section-blanc {
+  height : 95px;
+	background-color: #f8d9d1;
 }
 
 .bandeau-rouge {
@@ -88,7 +82,6 @@ nav a {
 	background-color: #ed462f;
 	height: 108px;
 	color: white;
-	padding-top: 95px;
 	z-index: 9;
 }
 
@@ -107,11 +100,22 @@ nav a {
 	font-weight: 700;
 }
 
+#section1 {
+  background-image: url("images/background_ada1.jpg");
+  background-attachment: local;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+	height: 65vh;
+	display: flex;
+	align-items: center;
+}
+
 #ada-code {
 	position: absolute;
 	right: 50%;
 	top: 35%;
-	z-index: 5;
+	z-index: 2;
 }
 
 .rectangle-blanc {
