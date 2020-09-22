@@ -75,6 +75,7 @@ nav a {
 }
 
 .bandeau-rouge {
+  position : relative;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
