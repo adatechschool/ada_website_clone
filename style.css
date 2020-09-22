@@ -146,6 +146,30 @@ nav a {
 	padding: 0 70px;
 }
 
+#section2 {
+  position: relative;
+  display: flex;
+	background-color: #f8d9d1;
+  color: #ed462f;
+}
+
+#section2 > h2 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+#divAdroite {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-;
+}
+
+#divAdroite > a {
+  background-color: #ed462f;
+  color: white;
+}
+
+
 /*** FOOTER ***/
 
 footer a, footer p, footer i {
