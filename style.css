@@ -27,6 +27,12 @@ nav > * {
   flex-direction : row;
 }
 
+#menu {
+  color : #ed462f;
+  font-size: 35px;
+  display: none;
+}
+
 .nav-links, .nav-btns {
 	margin-top: 10px;
 }
@@ -235,11 +241,6 @@ nav a {
 	justify-content: flex-end;
 }
 
-
-
-
-
-
 /*** FOOTER ***/
 
 footer a, footer p, footer i {
@@ -320,5 +321,13 @@ footer i {
 
   .nav-btns, .nav-links {
     display : none
+  }
+
+  nav {
+    justify-content: space-around;
+  }
+
+  #menu {
+    display: block;
   }
 }
