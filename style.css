@@ -191,6 +191,54 @@ nav a {
   color: #ed462f;
 }
 
+#section3 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 60px 2.5vw;
+}
+
+.carrousel-images  {
+	width: 40vw;
+	flex-grow: 5;
+}
+
+.carrousel-images img {
+	max-width: 100%;
+}
+
+.flechegauche, .flechedroite {
+	flex-grow: 4;
+}
+
+.flechegauche i, .flechedroite i {
+	font-size:  30px ;
+	color: rgba(31, 120, 245, 1) ;
+}
+
+.flechegauche i:hover, .flechedroite i:hover {
+	color: #ed462f;
+}
+
+#section3 .textetemoignage h2 {
+	color: rgba(31, 120, 245, 1) ;
+}
+
+#section3 .textetemoignage {
+	width: 25vw;
+	text-align: center;
+	flex-grow: 2;
+}
+
+.flechedroite {
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+
+
+
 
 /*** FOOTER ***/
 
